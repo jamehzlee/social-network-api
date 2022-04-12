@@ -37,7 +37,7 @@ thoughtSchema
   .get(function () {
     return `${reactions.length}`;
   });
-  
+
 const Thought = model('thought', thoughtSchema);
 
 module.exports = Thought;
