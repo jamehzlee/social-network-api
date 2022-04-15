@@ -20,7 +20,7 @@ const thoughtSchema = new Schema(
     reactions: [
       {
         type: Schema.Types.ObjectId,
-        ref: 'Reaction',
+        ref: 'reactionSchema',
       },
     ],
   },
@@ -38,6 +38,6 @@ thoughtSchema
     return this.reactions.length;
   });
 
-const Thought = model('thought', thoughtSchema);
+const Thought = model('Thought', thoughtSchema);
 
 module.exports = Thought;
