@@ -1,8 +1,12 @@
-<h1><a href=''>Social Network API<a></h1>
+<h1>Social Network API</h1>
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 <h2>Description</h2>
+Allows a user to create, view, and delete users and thoughts.
+Users can also add other users as friends and keep track of their friend count
+
+![example image](./assets/example.png)
 
 <h2>Table Of Contents</h2>
 <ul><li><a href="#install">Installation</a></li>
@@ -21,8 +25,11 @@ To start the Social Network API on your local machine use:
 
 <pre>npm start</pre>
 
+<a href="https://watch.screencastify.com/v/q61n7ZA8tsxI8foxaqBl">Walkthrough Video on Screencastify</a>
+
 <h2 id="tech">Technologies used:</h2>
 <ul>
+<li>Express.js</li>
 <li>MongoDB</li>
 <li>Mongoose</li>
 </ul>

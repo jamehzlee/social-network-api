@@ -36,7 +36,6 @@ module.exports = {
           .findOneAndUpdate(
             { _id: req.body.userId},
             { $push: {thoughts: user} },
-            console.log(user)
           )
           .select('-__v')
           .then((user) => 
